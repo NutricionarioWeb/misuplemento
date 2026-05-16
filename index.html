@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nutricionario</title>
+  <link rel="stylesheet" href="productos.css">
+</head>
+  <body>
+      <header>
+        <h1 class="page-name"></h1>
+        <nav>
+            <button onclick="
+              displayAll()
+            " class="products-button">Productos</button>
+            <div class="dropdown">
+                <button class="ingredients-button">Selecciona el Ingrediente</button>
+                <div id="component-list" class="dropdown-content"></div>
+            </div>
+            <div class="dropdown">
+                <button class="benefits-button">Selecciona el beneficio</button>
+                <div id="benefit-list" class="dropdown-content"></div>
+            </div>
+        </nav>
+      </header>
+
+      <main id="product-container">
+      </main>
+
+      <script src="productos.js"></script>
+  </body>
+</html>
