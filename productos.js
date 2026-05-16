@@ -15,7 +15,7 @@ const products = [
   },
   {
     name: "TRIM",
-    components: ["Acido cítrico", "Carboximetilcelulosa", "Cetonas de frambuesa", "Citrato de potasio", "Estevia", "Jugo de limón en polvo", "L-Carnitina", "Polinicotinato de cromo", "Sucralosa", "Vinagre de manzana", "Vitamina B3"],
+    components: ["Acido cítrico", "Carboximetil celulosa", "Cetonas de frambuesa", "Citrato de potasio", "Estevia", "Jugo de limón en polvo", "L-Carnitina", "Polinicotinato de cromo", "Sucralosa", "Vinagre de manzana", "Vitamina B3"],
     benefits: ["Sistema Inmune", "Desintoxicación", "Salud Digestiva", "Salud Cardiovascular", "Control de Peso", "Antioxidante", "Antienvejecimiento", "Recuperación Muscular", "Metabolismo", "Energía"],
     image: "media/Trim.png",
     description: ""
