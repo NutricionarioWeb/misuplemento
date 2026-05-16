@@ -3,7 +3,7 @@ const products = [
     name: "EVEA",
     components: ["Triptófano", "GABA", "Lupulo", "Magnesio", "Vitamina B6"],
     benefits: ["Salud Cerebral", "Calidad del Sueño", "Estado de Ánimo", "Relajación", "Recuperación Muscular", "Salud del Sistema Nervioso"],
-    image: "media/EVEA.png",
+    image: "Nutricionario/media/EVEA.png",
     description: ""
   },
   {
