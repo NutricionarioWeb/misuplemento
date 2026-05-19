@@ -22,7 +22,7 @@ const products = [
   },
   {
     name: "UPSTAR",
-    components: ["Acido fólico", "BCAA's (Leucina, Valina, Isoleucina)", "Calcio", "Cobre", "Magnesio", "Manganeso", "Polinicotinato de cromo", "Selenio", "Te verde", "Vitamina A", "Vitamina B1", "Vitamina B12", "Vitamina B2", "Vitamina B3", "Vitamina B5", "Vitamina B6", "Vitamina C", "Vitamina D", "Vitamina E", "Vitamina K2", "Zinc"],
+    components: ["Acido fólico", "BCAAs (Leucina, Valina, Isoleucina)", "Calcio", "Cobre", "Magnesio", "Manganeso", "Polinicotinato de cromo", "Selenio", "Te verde", "Vitamina A", "Vitamina B1", "Vitamina B12", "Vitamina B2", "Vitamina B3", "Vitamina B5", "Vitamina B6", "Vitamina C", "Vitamina D", "Vitamina E", "Vitamina K2", "Zinc"],
     benefits: ["Salud de la Sangre", "Salud de la Piel", "Recuperación Muscular", "Rendimiento Deportivo", "Salud Ósea", "Sistema Inmune", "Salud del Sistema Nervioso", "Metabolismo", "Relajación", "Salud Cerebral", "Energía", "Control de Peso", "Antioxidante", "Salud Cardiovascular", "Fertilidad", "Antienvejecimiento"],
     image: "media/Upstar.png",
     description: ""
