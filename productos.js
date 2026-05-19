@@ -10,7 +10,7 @@ const products = [
     name: "UPMEN",
     components: ["Acido alfa lipoico", "Acido fólico", "Biotina", "Calcio", "Citrato de potasio", "Cobre", "Coenzima Q10", "Colina", "Extracto de semilla de calabaza", "Inositol", "L-Arginina", "Licopeno", "Luteína", "Magnesio", "Manganeso","Selenio", "Vitamina A", "Vitamina B1", "Vitamina B12", "Vitamina B2", "Vitamina B3", "Vitamina B5", "Vitamina B6", "Vitamina C", "Vitamina D", "Vitamina E", "Vitamina K2", "Vitaminas B", "Zinc"],
     benefits: ["Antioxidante", "Energía Celular", "Salud del Cabello", "Salud de la Piel", "Salud Ósea", "Recuperación Muscular", "Sistema Inmune", "Salud Cardiovascular", "Metabolismo", "Salud del Sistema Nervioso", "Salud Cerebral", "Función Hepática", "Antiinflamatorio", "Salud Visual", "Relajación", "Energía", "Fertilidad"],
-    image: "media/Upmen.png",
+    image: "media/Upmen.jpeg",
     description: ""
   },
   {
@@ -24,14 +24,14 @@ const products = [
     name: "UPSTAR",
     components: ["Acido fólico", "BCAA's (Leucina, Valina, Isoleucina)", "Calcio", "Cobre", "Magnesio", "Manganeso", "Polinicotinato de cromo", "Selenio", "Te verde", "Vitamina A", "Vitamina B1", "Vitamina B12", "Vitamina B2", "Vitamina B3", "Vitamina B5", "Vitamina B6", "Vitamina C", "Vitamina D", "Vitamina E", "Vitamina K2", "Zinc"],
     benefits: ["Salud de la Sangre", "Salud de la Piel", "Recuperación Muscular", "Rendimiento Deportivo", "Salud Ósea", "Sistema Inmune", "Salud del Sistema Nervioso", "Metabolismo", "Relajación", "Salud Cerebral", "Energía", "Control de Peso", "Antioxidante", "Salud Cardiovascular", "Fertilidad", "Antienvejecimiento"],
-    image: "media/Upstar.png",
+    image: "media/Upstar.jpeg",
     description: ""
   },
   {
     name: "UPFEM",
     components: ["Acido fólico", "Biotina", "Calcio", "Cobre", "Hierro", "Jengibre", "Luteína", "Magnesio", "Myo Inositol", "Polinicotinato de cromo", "Resveratrol", "Vitamina A", "Vitamina B1", "Vitamina B12", "Vitamina B2", "Vitamina B3", "Vitamina B5", "Vitamina B6", "Vitamina C", "Vitamina D", "Vitamina E", "Vitamina K2", "Vitaminas B", "Zinc"],
     benefits: ["Salud del Cabello", "Salud de la Piel", "Salud Ósea", "Recuperación Muscular", "Sistema Inmune", "Salud del Sistema Nervioso", "Metabolismo", "Salud de la Sangre", "Energía", "Salud Digestiva", "Salud Cardiovascular", "Salud Visual", "Antioxidante", "Relajación", "Salud Cerebral", "Salud Hormonal", "Control de Peso", "Antienvejecimiento"],
-    image: "media/Upfem.png",
+    image: "media/Upfem.jpeg",
     description: ""
   },
   {
@@ -74,7 +74,7 @@ function renderProducts(productList) {
                 <h2>${item.name}</h2>
                 <p>${item.description}</p>
                 <p><strong>Componentes:</strong> ${item.components.join(', ')}</p>
-                <p><strong>Funciones:</strong> ${item.benefits.join(', ')}</p>
+                <p><strong>Beneficios:</strong> ${item.benefits.join(', ')}</p>
             </div>
         `;
         container.appendChild(card);
