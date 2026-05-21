@@ -63,8 +63,14 @@ nav {
   box-shadow: 0 8px 16px rgba(0,0,0,0.2); z-index: 1; 
 }
 
-.dropdown:hover .dropdown-content { 
-  display: block; 
+@media (hover: hover) and (pointer: fine) {
+  .dropdown:hover .dropdown-content { 
+    display: block; 
+  }
+}
+
+.dropdown-content.mobile-show {
+  display: block !important;
 }
 
 .dropdown-content button { 
@@ -150,4 +156,22 @@ nav {
 
 .page-name{
   color: white;
+}
+
+.ingredient-highlight-card {
+  border-left: 6px solid #5ba446; 
+  background-color: #fcfdfb;
+}
+
+
+.badge {
+  background: #5ba446;
+  color: white;
+  padding: 4px 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 5px;
 }
