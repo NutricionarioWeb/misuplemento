@@ -404,7 +404,7 @@ function setupFilters() {
 }
 
 function toggleMobileMenu(menuId) {
-    const isTouchDevice = window.matchMedia("(pointer: coarse)").matches;
+    const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
     
     if (isTouchDevice) {
         const currentMenu = document.getElementById(menuId);
