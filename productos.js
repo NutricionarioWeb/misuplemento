@@ -348,7 +348,7 @@ function filterBy(type, value) {
             <div class="product-right">
                 <h2>${item.name}</h2>
                 <p>${item.description}</p>
-                <p><strong>Componentes:</strong> ${item.components.join(', ')}</p>
+                <p><strong>Ingredientes:</strong> ${item.components.join(', ')}</p>
                 <p><strong>Beneficios:</strong> ${item.benefits.join(', ')}</p>
             </div>
         `;
