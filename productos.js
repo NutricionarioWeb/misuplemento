@@ -51,7 +51,7 @@ const products = [
   {
     name: "ARMOR",
     components: ["Betaglucanos de levadura", "Cúrcuma", "Vitamina A", "Vitamina C", "Vitamina D3", "Zinc"],
-    benefits: ["Sistema Inmune", "Salud Cardiovascular", "Sistema Inmune", "Antioxidante", "Antiinflamatorio", "Salud de la Piel", "Energía", "Salud Ósea"],
+    benefits: ["Sistema Inmune", "Salud Cardiovascular", "Antioxidante", "Antiinflamatorio", "Salud de la Piel", "Energía", "Salud Ósea"],
     image: "media/Armor.png",
     description: ""
   },
